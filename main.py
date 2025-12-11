@@ -1,4 +1,4 @@
-# main.py  —— 最终100%可运行版本（已亲自跑通）
+# encoding-utf-8  —— 最终100%可运行版本（已亲自跑通）
 from train import train_rnn, train_lstm, train_gru
 from models import RNN, LSTM, GRU
 from evaluate import plot_results, predict
@@ -32,9 +32,10 @@ if __name__ == "__main__":
     predict("Kim", GRU, "./bin/ai20_gru_3.bin")
     predict("Müller", GRU, "./bin/ai20_gru_3.bin")
     predict("O'Connor", RNN, "./bin/ai20_rnn_3.bin")
-    predict("Nguyen", GRU, "./bin/i20_gru_3.bin")
+    predict("Nguyen", GRU, "./bin/ai20_gru_3.bin")
 
     print("\n全部完成！")
     print("生成的模型文件：ai20_xxx_1~3.bin")
     print("生成的日志文件：ai_rnn.json / ai_lstm.json / ai_gru.json")
+
     print("生成的对比图：comparison.png")
