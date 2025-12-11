@@ -1,4 +1,4 @@
-# data_utils.py
+# encoding-utf-8
 import torch
 from torch.utils.data import Dataset, DataLoader
 from config import letters, categorys, DEVICE, DATA_PATH, BATCH_SIZE
@@ -37,6 +37,7 @@ def get_dataloader():
     names, labels = read_names()
     dataset = NameDataset(names, labels)
     return DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
+
 
 
 
