@@ -1,4 +1,4 @@
-# 人名国籍分类系统（PyTorch实现）
+# 基于RNN/LSTM/GRU的人名国籍分类系统
 
 **技术栈**：Python · PyTorch · RNN / LSTM / GRU · Matplotlib · 模块化工程  
 **项目时长**：2024.10 – 2024.12（独立完成）
