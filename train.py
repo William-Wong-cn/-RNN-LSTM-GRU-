@@ -1,4 +1,4 @@
-#encoding=utf-8
+# -*- coding: utf-8 -*-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -187,6 +187,7 @@ def train_gru():
         json.dump(result, f, ensure_ascii=False)
 
     return total_loss_list, total_time, total_acc_list
+
 
 
 
