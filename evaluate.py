@@ -1,4 +1,4 @@
-# encoding-utf-8
+# -*- coding: utf-8 -*-
 import json
 import torch
 import matplotlib.pyplot as plt
@@ -67,3 +67,4 @@ def plot_results():
     plt.savefig("./phone/comparison.png")
 
     plt.show()
+
