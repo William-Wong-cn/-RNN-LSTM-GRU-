@@ -1,4 +1,4 @@
-# encoding-utf-8
+# -*- coding: utf-8 -*-
 import string
 
 # 字母表
@@ -20,6 +20,7 @@ LEARNING_RATE = 1e-3
 EPOCHS = 3          #3轮以上才能看出效果，1轮太少
 BATCH_SIZE = 1
 DATA_PATH = "./data/name_classfication.txt"
+
 
 
 
