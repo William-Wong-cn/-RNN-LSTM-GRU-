@@ -1,4 +1,4 @@
-# encoding-utf-8
+# -*- coding: utf-8 -*-
 import torch
 import torch.nn as nn
 from config import n_letters, n_categories, HIDDEN_SIZE, DEVICE
@@ -54,6 +54,7 @@ class GRU(nn.Module):
 
     def init_hidden(self):
         return torch.zeros(1, 1, HIDDEN_SIZE, device=DEVICE)
+
 
 
 
